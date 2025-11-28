@@ -49,6 +49,13 @@ dependencies = [
     # for packaging.version; not sure what the lower bound is.
     "packaging",
     "msgspec>=0.20.0",
+    "requests>=2.32.5",
+    "duckdb>=1.4.2",
+    "sqlglot>=28.0.0",
+    "polars[pyarrow]>=1.35.2",
+    "vegafusion>=2.0.3",
+    "vl-convert-python>=1.8.0",
+    "pytest>=9.0.1",
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
